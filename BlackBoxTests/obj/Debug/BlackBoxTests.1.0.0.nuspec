@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlackBoxTests</id>
+    <version>1.0.0</version>
+    <authors>Niall Matthews</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>HarlequinBear.jpg</icon>
+    <description>Package Description</description>
+    <copyright>2017 - Niall Matthews</copyright>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.Support" version="3.141.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="3.141.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="88.0.4324.9600" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\micro\Source\Repos\BlackBoxTests\BlackBoxTests\bin\Debug\netcoreapp3.1\BlackBoxTests.dll" target="lib\netcoreapp3.1\BlackBoxTests.dll" />
+    <file src="C:\Users\micro\Desktop\HarlequinBear.jpg" target="HarlequinBear.jpg" />
+  </files>
+</package>

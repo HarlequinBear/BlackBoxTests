@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Niall Matthews</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>2017 - Niall Matthews</Copyright>
+    <PackageIcon>HarlequinBear.jpg</PackageIcon>
+    <RepositoryUrl>https://github.com/HarlequinBear/BlackBoxTests</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/HarlequinBear/BlackBoxTests</PackageProjectUrl>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="88.0.4324.9600" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\HarlequinBear.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
