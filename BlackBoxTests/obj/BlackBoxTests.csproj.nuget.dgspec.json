@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj": {}
+    "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj": {
+    "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
+        "projectUniqueName": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
         "projectName": "BlackBoxTests",
-        "projectPath": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
+        "projectPath": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
         "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\obj\\",
+        "outputPath": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L9Si3WXvM3ywlSmUIS5M2l/71RBNaJNxgL92G1FMJTMpAzIHC10xEjf2C82s0fpbEzHyKPO/QzfjwKBbQvot/w==",
+  "dgSpecHash": "ppCQTojHY1izuQ9Znhg7+/WLq4jXv0gmbGcKEX7l8LxauVOazWjP/Zng5RrLU5Gvrbs2Fx4Hdepz4NG37x5lsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
+  "projectFilePath": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\WebAutomation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micro\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

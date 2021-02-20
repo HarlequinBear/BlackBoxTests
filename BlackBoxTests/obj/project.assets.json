@@ -5326,11 +5326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
-      "projectName": "BlackBoxTests",
-      "projectPath": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\BlackBoxTests.csproj",
+      "projectUniqueName": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\WebAutomation.csproj",
+      "projectName": "WebAutomation",
+      "projectPath": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\WebAutomation.csproj",
       "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micro\\Source\\Repos\\BlackBoxTests\\BlackBoxTests\\obj\\",
+      "outputPath": "C:\\Users\\micro\\source\\repos\\BlackBoxTests\\BlackBoxTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
