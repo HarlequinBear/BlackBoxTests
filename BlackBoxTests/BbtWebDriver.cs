@@ -302,6 +302,12 @@ namespace BlackBoxTests.WebAutomation
             response?.SendKeys(keys);
         }
 
+        public void FindClearAndSendKeys(IBbtWebElement by, string keys, bool errorIfNull = true)
+        {
+            FindAndClear(by, errorIfNull);
+            FindAndSendKeys(by, keys, errorIfNull);
+        }
+
         public void FindAndSubmit(IBbtWebElement webElement, bool errorIfElementNotFound = true)
         {
             var response = FindElement(webElement, errorIfElementNotFound);
@@ -577,6 +583,21 @@ namespace BlackBoxTests.WebAutomation
         {
             var tab = Browser.WindowHandles[tabNumber];
             Browser.SwitchTo().Window(tab);
+        }
+
+        public void SwitchToIFrame(string iFrameId)
+        {
+            Browser.SwitchTo().Frame(iFrameId);
+        }
+
+        public void SwitchToDefaultContent()
+        {
+            Browser.SwitchTo().DefaultContent();
+        }
+
+        public void NavigateBackAPage()
+        {
+            Browser.Navigate().Back();
         }
 
         public void CloseTab()

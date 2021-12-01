@@ -63,6 +63,8 @@ namespace BlackBoxTests.WebAutomation
 
         void FindAndSendKeys(IBbtWebElement by, string keys, bool errorIfNull = true);
 
+        void FindClearAndSendKeys(IBbtWebElement by, string keys, bool errorIfNull = true);
+
         void FindAndSubmit(IBbtWebElement by, bool errorIfNull = true);
 
         void FindAndWaitToBeClickable(IBbtWebElement by, TimeSpan timeOut, bool errorIfNull = true);
@@ -82,6 +84,10 @@ namespace BlackBoxTests.WebAutomation
         void ScrollToBottomOfPage();
 
         void SwitchToLastWindow();
+
+        void SwitchToIFrame(string iFrameId);
+
+        void SwitchToDefaultContent();
 
         void WaitForAlert(TimeSpan timeOut);
 
@@ -106,6 +112,8 @@ namespace BlackBoxTests.WebAutomation
 
         void CloseTab();
 
-        void HoverOverElement(IBbtWebElement performanceMetricsButton);
+        void HoverOverElement(IBbtWebElement element);
+
+        void NavigateBackAPage();
     }
 }
